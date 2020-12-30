@@ -1,6 +1,0 @@
-1)   Hi if anyone can explain to me I did not understand what the use of the library "thunk"? What does this line actually do?
-
--> when you dispatch an action to redux store it should be a plain text not a function. but in a real scenario, we need to dispatch a function to do some logics. here redux-thunk comes into the picture and converts our function to a plain text object for redux. so it is a middleware that needs to be introduced to store on createStore function.
-
-
-
